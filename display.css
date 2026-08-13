@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void set_mode(const char* mode) {
+    printf("🔧 Display mode set to: %s\n", mode);
+}
+
+int main() {
+    set_mode("OLED");
+    set_mode("QLED");
+    set_mode("AMOLED");
+    return 0;
+  }
